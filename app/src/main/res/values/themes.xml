@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RestClient" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">#F4F1E9</item>
+        <item name="colorPrimaryContainer">@color/accent_soft</item>
+        <item name="colorOnPrimaryContainer">#0D3F35</item>
+        <item name="colorSecondary">@color/ink_soft</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorSurfaceVariant">@color/paper</item>
+        <item name="colorOnSurfaceVariant">@color/ink_faint</item>
+        <item name="colorOutline">@color/rule_strong</item>
+        <item name="colorOutlineVariant">@color/rule</item>
+        <item name="colorError">@color/danger</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="TextAppearance.RestClient.Eyebrow" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/ink_faint</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextAppearance.RestClient.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.RestClient.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/ink_faint</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.RestClient.Amount" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

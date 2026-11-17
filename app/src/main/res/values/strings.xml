@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Comptes REST</string>
+    <string name="format_json">JSON</string>
+    <string name="format_xml">XML</string>
+    <string name="add_compte">Ajouter un compte</string>
+    <string name="edit_compte">Modifier le compte</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+    <string name="solde_label">Solde</string>
+    <string name="type_label">Type de compte</string>
+    <string name="type_courant">Courant</string>
+    <string name="type_epargne">Épargne</string>
+    <string name="date_label">Date de création</string>
+    <string name="empty_list">Aucun compte pour le moment</string>
+    <string name="empty_list_hint">Ajoutez un compte avec le bouton +</string>
+    <string name="delete_title">Supprimer le compte</string>
+    <string name="delete_message">Voulez-vous vraiment supprimer ce compte ?</string>
+    <string name="retry">Réessayer</string>
+    <string name="loading">Chargement des comptes</string>
+</resources>

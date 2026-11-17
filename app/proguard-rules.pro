@@ -1,0 +1,3 @@
+-dontwarn javax.xml.bind.**
+-keep class ma.projet.restclient.entities.** { *; }
+-keepattributes *Annotation*
